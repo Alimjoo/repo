@@ -1,0 +1,36 @@
+Package: top.piyazon.complications
+Architecture: iphoneos-arm
+Version: 4.0
+Section: Tweaks
+Maintainer: Piyazon
+Installed-Size: 3093
+Depends: mobilesubstrate
+Filename: ./debians/top.piyazon.complications_4.0_iphoneos-arm.deb
+Size: 893626
+MD5sum: bed3912df4800945f950179f2bf9db02
+SHA1: 42e66e01b684fda026ce51e2512eb12a6bcc5059
+SHA256: 955b5b61813734f18f4fe991e84f4c5277609bc0e6ded200d59e7a812355c9a7
+SHA512: 425ea91b5634871963e1bbb735d903740c65b79b1b01a7772b9bd099c324045e2b1960a463676512939e637735630ee57428b79b78ffd4f1246bc3d3afc0976f
+Description: watchOS Complications on lock screen. قۇلۇپ ئىكرانىدىكى ئالما سائەت بۇيۇملىرى.
+ModernDepiction:
+Name: Complications
+Author: Piyazon
+Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/complications.png
+
+Package: top.piyazon.hideyourapps
+Architecture: iphoneos-arm
+Version: 1.2.1
+Section: Tweaks
+Maintainer: Piyazon
+Installed-Size: 320
+Depends: mobilesubstrate, applist
+Filename: ./debians/top.piyazon.hideyourapps_1.2.1_iphoneos-arm.deb
+Size: 33686
+MD5sum: 466ecce1676874266665a4be846bccbe
+SHA1: 13838b579281c5ea827b15ccc80271ca6c16be67
+SHA256: 12f91da5d2e932f4f42123e7ea75b92aa554944dfc2f9b5c6a348ee8164343aa
+SHA512: 2ccdad416bc5e774cc415a449b6aa65af15453cb5986d2b87eb3c9fdaa15e209b362a84976c318f09ef0b4131272db56caaa401c8dddebd4dd22b5369946e578
+Description: A tweak to hide apps on your Springboard.
+Name: HideYourApps دىتال يۇشۇرۇش
+Author: Piyazon
+
