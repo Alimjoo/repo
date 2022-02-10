@@ -6,16 +6,17 @@ Maintainer: Piyazon
 Installed-Size: 3093
 Depends: mobilesubstrate
 Filename: ./debians/top.piyazon.complications_4.0_iphoneos-arm.deb
-Size: 893626
-MD5sum: bed3912df4800945f950179f2bf9db02
-SHA1: 42e66e01b684fda026ce51e2512eb12a6bcc5059
-SHA256: 955b5b61813734f18f4fe991e84f4c5277609bc0e6ded200d59e7a812355c9a7
-SHA512: 425ea91b5634871963e1bbb735d903740c65b79b1b01a7772b9bd099c324045e2b1960a463676512939e637735630ee57428b79b78ffd4f1246bc3d3afc0976f
-Description: watchOS Complications on lock screen. قۇلۇپ ئىكرانىدىكى ئالما سائەت بۇيۇملىرى.
+Size: 893614
+MD5sum: 8e2d3ee9a3db39b6a07ccfa6974cceec
+SHA1: bbc3a84ce1dc255a70d73ceaf602ef536b4e24da
+SHA256: b414eee1dddb97b8a40959e80ca54d0e49d110b4700ef3610ca33d54c95c2983
+SHA512: aa70a33289db391af594a8c38c8cb5e7f7ab7684e5f21a4157cc976d52493ff8be0624dce0ff42131936a99f67361ff1f317f817801faee6c86d66995bcefa71
+Description: watchOS Complications on lock screen.
 ModernDepiction:
-Name: Complications
+Name: Complications قۇلۇپ ئىكران دىتالى
 Author: Piyazon
 Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/complications.png
+Depiction: https://piyazon.top/repo/dep/Depiction/complications/
 
 Package: top.piyazon.hideyourapps
 Architecture: iphoneos-arm
