@@ -25,12 +25,14 @@ Maintainer: Piyazon
 Installed-Size: 320
 Depends: mobilesubstrate, applist
 Filename: ./debians/top.piyazon.hideyourapps_1.2.1_iphoneos-arm.deb
-Size: 33686
-MD5sum: 466ecce1676874266665a4be846bccbe
-SHA1: 13838b579281c5ea827b15ccc80271ca6c16be67
-SHA256: 12f91da5d2e932f4f42123e7ea75b92aa554944dfc2f9b5c6a348ee8164343aa
-SHA512: 2ccdad416bc5e774cc415a449b6aa65af15453cb5986d2b87eb3c9fdaa15e209b362a84976c318f09ef0b4131272db56caaa401c8dddebd4dd22b5369946e578
+Size: 33760
+MD5sum: 98ea98c4220ce7df11f5ada81b750963
+SHA1: 6afdf9d98a574d7e9b51dc6090491779eb1afde1
+SHA256: bf2380329d6ce06fb2253bebddc14208b38d2e15a5411dc43f569cf05696fea3
+SHA512: 22c47b0a972513e7325ac89acfbf81629cb0ceb4911b0817edd19f11b20910ab3dd89555c31dc72870be3dfc2e482ffa07afcf67a5f158ac4520981743b3f3df
 Description: A tweak to hide apps on your Springboard.
 Name: HideYourApps دىتال يۇشۇرۇش
 Author: Piyazon
+Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/hideyourapps.png
+Depiction: https://piyazon.top/repo/dep/Depiction/hideyourapps/
 
