@@ -107,20 +107,31 @@
 
 
     <!-- screen shot -->
-    <div id="includeFooter">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+    <div class="carousel-inner">
+        <style>
+            .carousel-inner {
+                height: 100vh;
+                overflow-y: hidden;
+                display: flex;
+                flex-wrap: nowrap;
+            }
+
+            .carousel-inner .page {
+                flex: 0 0 auto;
+            }
+
+            .carousel-inner img {
+                width: 70%;
+            }
+        </style>
+        <div class="page">
+            <img src="https://files.mdnice.com/blue.jpg" alt="">
+        </div>
+        <div class="page">
+            <img src="https://files.mdnice.com/green.jpg" alt="">
+        </div>
+        <div class="page">
+            <img src="https://files.mdnice.com/red.jpg" alt="">
         </div>
     </div>
     <script src="https://piyazon.top/repo/dep/js/index.js"></script>
