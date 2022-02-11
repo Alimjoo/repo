@@ -1,20 +1,16 @@
-<!DOCTYPE html>
-<html lang="en" style="margin: 5px;">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-		crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <title>Complications</title>
-</head>
-<body>
-    <p class="alert alert-primary">
-        Just testing depection is working! 
-    </p>
-</body>
-</html>
+<!DOCTYPE html><html lang="en" style="margin: 5px;"><head> <meta charset="UTF-8"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <title>Tweaks</title></head><body> <!-- Get iOS version --> <p id="ios_version"></p> <script> function iOSversion() { if (/iP(hone|od|ad)/.test(navigator.platform)) { var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/); return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)]; } } ver = iOSversion(); if (ver[0] < 15) { $("#ios_version").attr("class", "alert alert-success").html('Your device is running iOS ' + ver[0] + '.' + ver[1] + '.' + ver[2] + ', you are safe to install.'); } else { $("#ios_version").attr("class", "alert alert-warning").html('Your device is running iOS ' + ver[0] + '.' + ver[1] + '.' + ver[2] + ', not tested on your device yet.'); } </script> <h1 class="pb-2 border-bottom">More Details</h1> <div class="px-4 py-3" id="icon-grid"> <!-- description --> <div class="row row-cols-1" style="padding:0px"> <div class="col d-flex align-items-start"> <div> <h4 class="fw-bold mb-1">Description</h4> <p id="description"></p> </div> </div> </div> <!-- Details --> <div class="row row-cols-2 g-4 py-3"> <div class="col d-flex align-items-start"> <img cdn="yes" alt="versoin" src="/code-branch-solid.svg" class="bi text-muted flex-shrink-0 me-3" style="width:1.75em;"></img> <div> <h4 class="fw-bold mb-0">Current Version</h4> <p id="current-version" class="badge bg-primary"></p> </div> </div> <div class="col d-flex align-items-start"> <img cdn="yes" alt="test-ios" src="/apple-brands.svg" class="bi text-muted flex-shrink-0 me-3" style="width:1.75em;"></img> <div> <h4 class="fw-bold mb-0">Tested iOS</h4> <p id="test-ios" class="badge bg-primary"></p> </div> </div> <div class="col d-flex align-items-start"> <img cdn="yes" alt="lass-update" src="/calendar-check-solid.svg" class="bi text-muted flex-shrink-0 me-3" style="width:1.75em;"></img> <div> <h4 class="fw-bold mb-0">Last Update</h4> <p id="last-up-time" class="badge bg-primary"></p> </div> </div> <div class="col d-flex align-items-start"> <img cdn="yes" alt="piyazon" src="/penguin.svg" class="bi text-muted flex-shrink-0 me-3" style="width:1.75em;"></img> <div> <h4 class="fw-bold mb-0">Provided By</h4> <p><a href="https://piyazon.top" class="link-primary">Piyazon</a></p> </div> </div> </div> </div>
+
+<!-- Tweaks Custom -->
+<script>
+    var properties = {
+        "current-version": "v4.0",
+        "test-ios": "iOS 14.8.1",
+        "last-up-time": "2022-02-11",
+        "name": "complications",
+        "img": 3,
+        "description": "Complications brings Apple Watch widgets to your iPhone's lock screen. Each widget beautifully animates and updates throughout the day, without sacrificing battery life. Get all the information you need with just a glance. Tap a complication to quickly open its app to get even more info. Custom x/y positioning lets you move the widgets to fit into your setup. You can even choose the number of rows and columns you want."
+    }
+</script>
+
+
+<!-- screen shot --> <h1 class="border-bottom pb-2 px-1" style="margin-bottom: 20px;">Screen Shots</h1> <div class="py-3 px-4"> <div class="carousel-inner"> <style> .carousel-inner { overflow-y: hidden; overflow-x: scroll; display: flex; flex-wrap: nowrap; } .carousel-inner .page { flex: 0 0 auto; } .carousel-inner img { height: 500px; } </style> </div> </div> <script src="https://piyazon.top/repo/dep/js/index.js"></script></body></html>

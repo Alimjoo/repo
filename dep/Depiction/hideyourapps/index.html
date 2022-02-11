@@ -15,97 +15,93 @@
 </head>
 
 <body>
+    <!-- Get iOS version -->
     <p id="ios_version"></p>
-    <!-- Header -->
-    <div id="includeHeader">
-        <!-- Get iOS version -->
-        <script>
-            function iOSversion() {
-                if (/iP(hone|od|ad)/.test(navigator.platform)) {
-                    // supports iOS 2.0 and later: <http://bit.ly/TJjs1V>
-                    var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
-                    return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
-                }
+    <script>
+        function iOSversion() {
+            if (/iP(hone|od|ad)/.test(navigator.platform)) {
+                var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
+                return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
             }
+        }
 
-            ver = iOSversion();
+        ver = iOSversion();
 
-            if (ver[0] < 15) {
-                $("#ios_version").attr("class", "alert alert-success").html('Your device is running iOS ' + ver[0] + '.' + ver[1] + '.' + ver[2] + ', you are safe to install.');
-            } else {
-                $("#ios_version").attr("class", "alert alert-warning").html('Your device is running iOS ' + ver[0] + '.' + ver[1] + '.' + ver[2] + ', not tested on your device yet.');
-            }
-        </script>
+        if (ver[0] < 15) {
+            $("#ios_version").attr("class", "alert alert-success").html('Your device is running iOS ' + ver[0] + '.' + ver[1] + '.' + ver[2] + ', you are safe to install.');
+        } else {
+            $("#ios_version").attr("class", "alert alert-warning").html('Your device is running iOS ' + ver[0] + '.' + ver[1] + '.' + ver[2] + ', not tested on your device yet.');
+        }
+    </script>
 
-        <div class="container px-4 py-3" id="icon-grid">
-            <h2 class="pb-2 border-bottom">More Details</h2>
-            <!-- description -->
-            <div class="row row-cols-1" style="padding:0px">
-                <div class="col d-flex align-items-start">
-                    <div>
-                        <h4 class="fw-bold mb-0">Description</h4>
-                        <p id="description"></p>
-                    </div>
-                </div>
-            </div>
-            <!-- Details -->
-            <div class="row row-cols-2  g-4 py-3">
-                <div class="col d-flex align-items-start">
-                    <img cdn="yes" alt="versoin" src="/code-branch-solid.svg" class="bi text-muted flex-shrink-0 me-3"
-                        style="width:1.75em;"></img>
-                    <div>
-                        <h4 class="fw-bold mb-0">Current Version</h4>
-                        <p id="current-version" class="badge bg-primary">v2.0</p>
-                    </div>
-                </div>
-
-                <div class="col d-flex align-items-start">
-                    <img cdn="yes" alt="test-ios" src="/apple-brands.svg" class="bi text-muted flex-shrink-0 me-3"
-                        style="width:1.75em;"></img>
-                    <div>
-                        <h4 class="fw-bold mb-0">Tested iOS</h4>
-                        <p id="test-ios" class="badge bg-primary">iOS 14.8.1</p>
-                    </div>
-                </div>
-
-                <div class="col d-flex align-items-start">
-                    <img cdn="yes" alt="lass-update" src="/calendar-check-solid.svg"
-                        class="bi text-muted flex-shrink-0 me-3" style="width:1.75em;"></img>
-                    <div>
-                        <h4 class="fw-bold mb-0">Last Update</h4>
-                        <p id="last-up-time" class="badge bg-primary">2022-02-11</p>
-                    </div>
-                </div>
-
-                <div class="col d-flex align-items-start">
-                    <img cdn="yes" alt="piyazon" src="/penguin.svg" class="bi text-muted flex-shrink-0 me-3"
-                        style="width:1.75em;"></img>
-                    <div>
-                        <h4 class="fw-bold mb-0">Provided By</h4>
-                        <p><a href="https://piyazon.top" class="link-primary">Piyazon</a></p>
-                    </div>
+    <h1 class="pb-2 border-bottom">More Details</h1>
+    <div class="px-4 py-3" id="icon-grid">
+        <!-- description -->
+        <div class="row row-cols-1" style="padding:0px">
+            <div class="col d-flex align-items-start">
+                <div>
+                    <h4 class="fw-bold mb-1">Description</h4>
+                    <p id="description"></p>
                 </div>
             </div>
         </div>
+        <!-- Details -->
+        <div class="row row-cols-2  g-4 py-3">
+            <div class="col d-flex align-items-start">
+                <img cdn="yes" alt="versoin" src="/code-branch-solid.svg" class="bi text-muted flex-shrink-0 me-3"
+                    style="width:1.75em;"></img>
+                <div>
+                    <h4 class="fw-bold mb-0">Current Version</h4>
+                    <p id="current-version" class="badge bg-primary"></p>
+                </div>
+            </div>
 
+            <div class="col d-flex align-items-start">
+                <img cdn="yes" alt="test-ios" src="/apple-brands.svg" class="bi text-muted flex-shrink-0 me-3"
+                    style="width:1.75em;"></img>
+                <div>
+                    <h4 class="fw-bold mb-0">Tested iOS</h4>
+                    <p id="test-ios" class="badge bg-primary"></p>
+                </div>
+            </div>
+
+            <div class="col d-flex align-items-start">
+                <img cdn="yes" alt="lass-update" src="/calendar-check-solid.svg"
+                    class="bi text-muted flex-shrink-0 me-3" style="width:1.75em;"></img>
+                <div>
+                    <h4 class="fw-bold mb-0">Last Update</h4>
+                    <p id="last-up-time" class="badge bg-primary"></p>
+                </div>
+            </div>
+
+            <div class="col d-flex align-items-start">
+                <img cdn="yes" alt="piyazon" src="/penguin.svg" class="bi text-muted flex-shrink-0 me-3"
+                    style="width:1.75em;"></img>
+                <div>
+                    <h4 class="fw-bold mb-0">Provided By</h4>
+                    <p><a href="https://piyazon.top" class="link-primary">Piyazon</a></p>
+                </div>
+            </div>
+        </div>
     </div>
+
 
     <!-- Tweaks Custom -->
     <script>
         var properties = {
             "current-version": "v1.2.1",
-            "test-ios": "ios 14.8.1",
+            "test-ios": "iOS 14.8.1",
             "last-up-time": "2022-02-11",
             "name": "hideyourapps",
             "img": 2,
-            "description": "Be sure to have your pages set up with the latest design and development standards. That means using an HTML5 doctype and including a viewport meta tag for proper responsive behaviors. Put it all together and your pages should look like this"
+            "description": "Hide annoying or infrequently used applications from your Home screen. Hidden apps will be still accessible from your Spotlight search."
         }
     </script>
 
 
     <!-- screen shot -->
+    <h1 class="border-bottom pb-2 px-1" style="margin-bottom: 20px;">Screen Shots</h1>
     <div class="py-3 px-4">
-        <h1 class="border-bottom pb-2" style="margin-bottom: 20px;">Screen Shots</h1>
 
         <div class="carousel-inner">
             <style>
