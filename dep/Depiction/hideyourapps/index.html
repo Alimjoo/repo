@@ -37,23 +37,19 @@
             }
         </script>
 
-        <div class="container px-4 py-5" id="icon-grid">
+        <div class="container px-4 py-3" id="icon-grid">
             <h2 class="pb-2 border-bottom">More Details</h2>
             <!-- description -->
             <div class="row row-cols-1" style="padding:0px">
                 <div class="col d-flex align-items-start">
                     <div>
                         <h4 class="fw-bold mb-0">Description</h4>
-                        <p id="description">Be sure to have your pages set up with the latest design and development
-                            standards. That
-                            means using an HTML5 doctype and including a viewport meta tag for proper responsive
-                            behaviors. Put it all
-                            together and your pages should look like this</p>
+                        <p id="description"></p>
                     </div>
                 </div>
             </div>
             <!-- Details -->
-            <div class="row row-cols-2  g-4 py-5">
+            <div class="row row-cols-2  g-4 py-3">
                 <div class="col d-flex align-items-start">
                     <img cdn="yes" alt="versoin" src="/code-branch-solid.svg" class="bi text-muted flex-shrink-0 me-3"
                         style="width:1.75em;"></img>
@@ -101,39 +97,36 @@
             "test-ios": "ios 14.8.1",
             "last-up-time": "2022-02-11",
             "name": "hideyourapps",
-            "img": 2
+            "img": 2,
+            "description": "Be sure to have your pages set up with the latest design and development standards. That means using an HTML5 doctype and including a viewport meta tag for proper responsive behaviors. Put it all together and your pages should look like this"
         }
     </script>
 
 
     <!-- screen shot -->
-    <div class="carousel-inner">
-        <style>
-            .carousel-inner {
-                height: 100vh;
-                overflow-y: hidden;
-                display: flex;
-                flex-wrap: nowrap;
-            }
+    <div class="py-3 px-4">
+        <h1 class="border-bottom pb-2" style="margin-bottom: 20px;">Screen Shots</h1>
 
-            .carousel-inner .page {
-                flex: 0 0 auto;
-            }
+        <div class="carousel-inner">
+            <style>
+                .carousel-inner {
+                    overflow-y: hidden;
+                    overflow-x: scroll;
+                    display: flex;
+                    flex-wrap: nowrap;
+                }
 
-            .carousel-inner img {
-                width: 70%;
-            }
-        </style>
-        <div class="page">
-            <img src="https://files.mdnice.com/blue.jpg" alt="">
-        </div>
-        <div class="page">
-            <img src="https://files.mdnice.com/green.jpg" alt="">
-        </div>
-        <div class="page">
-            <img src="https://files.mdnice.com/red.jpg" alt="">
+                .carousel-inner .page {
+                    flex: 0 0 auto;
+                }
+
+                .carousel-inner img {
+                    height: 500px;
+                }
+            </style>
         </div>
     </div>
+
     <script src="https://piyazon.top/repo/dep/js/index.js"></script>
 </body>
 

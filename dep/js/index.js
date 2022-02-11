@@ -13,6 +13,7 @@ for (var i = 0; i < to_replace.length; i++) {
 $("#current-version").html(properties['current-version']);
 $("#test-ios").html(properties['test-ios']);
 $("#last-up-time").html(properties['last-up-time']);
+$("#description").html(properties['description']);
 
 //  IMG
 for (let index = 1; index <= properties['img']; index++) {
