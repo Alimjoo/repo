@@ -16,5 +16,5 @@ $("#last-up-time").html(properties['last-up-time']);
 
 //  IMG
 for (let index = 1; index <= properties['img']; index++) {
-    $(".carousel-inner").append(`<div class="carousel-item active"><img src="${properties['name']}/${index}.png" class="d-block w-100" alt="..."></div>`);
+    $(".carousel-inner").append(`<div class="carousel-item active"><img cdn="yes" src="${properties['name']}/${index}.png" class="d-block w-100" alt="..."></div>`);
 }
