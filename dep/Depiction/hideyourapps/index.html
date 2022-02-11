@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <p id="ios_version"></p>
     <!-- Header -->
     <div id="includeHeader">
         <!-- Get iOS version -->
@@ -30,11 +31,9 @@
             ver = iOSversion();
 
             if (ver[0] < 15) {
-                $(#ios_version).html('Your device is running iOS ' + ver[0] + '.' + ver[1] + '.' + ver[2] + ', you are safe to install.');
-                $(#ios_version).attr("class", "alert alert-success");
+                $("#ios_version").attr("class", "alert alert-success").html('Your device is running iOS ' + ver[0] + '.' + ver[1] + '.' + ver[2] + ', you are safe to install.');
             } else {
-                $(#ios_version).html('Your device is running iOS ' + ver[0] + '.' + ver[1] + '.' + ver[2] + ', not tested on your device yet.');
-                $(#ios_version).attr("class", "alert alert-warning");
+                $("#ios_version").attr("class", "alert alert-warning").html('Your device is running iOS ' + ver[0] + '.' + ver[1] + '.' + ver[2] + ', not tested on your device yet.');
             }
         </script>
 
