@@ -1,4 +1,4 @@
-// img CDN
+// img source builder
 const CDN = "https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main";
 var to_replace = $("img");
 var temp;
