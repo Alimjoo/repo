@@ -1,3 +1,24 @@
+Package: top.piyazon.bioprotectxs
+Architecture: iphoneos-arm
+Version: 4.5-19
+Section: Tweaks
+Maintainer: Piyazon
+Installed-Size: 2176
+Depends: mobilesubstrate, preferenceloader
+Conflicts: net.limneos.bioprotect, net.limneos.bioprotectx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./debians/top.piyazon.bioprotectxs_4.5-19_iphoneos-arm.deb
+Size: 829096
+MD5sum: fa6eb6624078e470f3c6afe6e0af5ab6
+SHA1: 2ea4ed4fb152c4180f911ca372e4d47ca127b28a
+SHA256: f02ddb2d925621596f95b53c10e6c7bf88090d4ac7e63e773f9d58bed7210458
+SHA512: a086ee5c9f2cd2d485e57dae58f8d580015e2ecd29334471e1f4c95401af56cef529ef7fe47a8c730b2ba5930fff2157ba00ea8fe9cc477d570a0506e5b8e369
+Description: Protect your apps with Touch/Face ID!
+Name: BioProtect XS (iOS 12/13/14) بىيو-قۇلۇپ
+MainLibMD5: ee9c0c733aa8d49b298afbbb9dfa7407
+Author: Piyazon
+Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/bioprotectxs/bioprotectxs.png
+Depiction: https://piyazon.top/repo/dep/Depiction/bioprotectxs/
+
 Package: top.piyazon.complications
 Architecture: iphoneos-arm
 Version: 4.0
@@ -18,6 +39,100 @@ Author: Piyazon
 Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/complications.png
 Depiction: https://piyazon.top/repo/dep/Depiction/complications/
 
+Package: top.piyazon.cydown
+Architecture: iphoneos-arm
+Version: 7.1.2
+Section: Tools
+Maintainer: Piyazon
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Filename: ./debians/top.piyazon.cydown_7.1.2_iphoneos-arm.deb
+Size: 4365294
+MD5sum: e6cbbff1bb7337227bb469721de4026d
+SHA1: f0aedbc6833f48365988de013f039a6d9764f008
+SHA256: cc70225560dd9441cbfc817aef99c4f9002a40028a6f051db37589eb412f588f
+SHA512: 60908ead235e97c38f01147eb385e0e9228f1f9b7f33b006fa77ef570cd0f876abca0f0d57c8145f2a25c0b1471335899fff4c0039b1f4fad028096e15ffa399
+Description: 支持Chimera12-12.4专版-A12.可在cydia下载插件.备份源,插件
+Name: CyDown ھەقسىز قىستۇرما چۈشۈرۈش
+Author: Piyazon
+Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/cydown/cydown.png
+Depiction: https://piyazon.top/repo/dep/Depiction/cydown/
+
+Package: top.piyazon.desa
+Architecture: iphoneos-arm
+Version: 1.7
+Section: Themes
+Maintainer: Piyazon
+Depends: com.anemonetheming.anemone | com.spark.snowboard
+Filename: ./debians/top.piyazon.desa_1.7_iphoneos-arm.deb
+Size: 11333764
+MD5sum: 913850a2df8a691c6bdfde004329aa21
+SHA1: ad230187cff2f7d3ddb9f6010a27bdbcc164472c
+SHA256: 89f50bfab4b2bf1acd4534669abb83057176df8746efd9adf06646ab25d1ea3f
+SHA512: 7ac7414f456183901ca2fc9cd278dddc5c5a6fa5e3176cd1544852ddee06cd633ede333cca35928245c5ed88d979bcd92efe3d125401f9aed532c1e24c013ef0
+Description: SnowBoard theme
+Name: Desa دىسا پاسون
+Author: Piyazon
+Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/desa/desa.png
+Depiction: https://piyazon.top/repo/dep/Depiction/desa/
+
+Package: top.piyazon.dragenabler
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: Piyazon
+Installed-Size: 288
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debians/top.piyazon.dragenabler_1.0_iphoneos-arm.deb
+Size: 16934
+MD5sum: 7dc78b278f8d1d4e3434b7b825fbe38b
+SHA1: 3fce1beda51b30e4bed5d9f4ba262c280ee4fac9
+SHA256: 38e3e652b1b54fff20a354069a6c19f5a8680e03115064f969d21df52c3a798d
+SHA512: e2e93cb24b0ba91ef466b7ef358540cafed59748a3df749c07c972510fd028b8b6ef0e7d24874cd7d345959e5f785d4d52b41edceb82b044bb57f8f77aceb871
+Description: Enable iPad drag and drop features.
+Name: DragEnabler تاتىپ تاشلاش
+Author: Piyazon
+Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/dragenabler/dragenabler.png
+Depiction: https://piyazon.top/repo/dep/Depiction/dragenabler/
+
+Package: top.piyazon.fdots
+Architecture: iphoneos-arm
+Version: 1.0.5
+Section: Tweaks
+Maintainer: Piyazon
+Installed-Size: 352
+Depends: mobilesubstrate
+Filename: ./debians/top.piyazon.fdots_1.0.5_iphoneos-arm.deb
+Size: 58832
+MD5sum: 789328494d5a09d5d5c275b6aefc3e52
+SHA1: c291b3907c1ecab2aed52b35cc88a27298060c23
+SHA256: 6045319b3b46811587a6e7aecfd5216da102cb7f60a27dfc12fdcf0dfbf33180
+SHA512: 9da55f1b7d16fdb963de237ae67a58e5c6b93d98ae7610c07ae6a3703b8ce2a78f48f35e77ae11ed90ea3cbbb3c8054ea0e73c7b066ea64c8b1545a3d2b645f6
+Description: Hide annoying dots. Hides badges, update, beta and page dots and more.
+Name: FDots چىكىت يۇشۇرۇش
+Author: Piyazon
+Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/fdots/fdots.png
+Depiction: https://piyazon.top/repo/dep/Depiction/fdots/
+
+Package: top.piyazon.filza
+Architecture: iphoneos-arm
+Version: 3.9.0-2
+Section: Utilities
+Maintainer: Piyazon
+Installed-Size: 32244
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Filename: ./debians/top.piyazon.filza_3.9.0-2_iphoneos-arm.deb
+Size: 13114062
+MD5sum: 243c542f1b0ebaacb674192f75027535
+SHA1: 08d2ccf03a9967430d6e470212736ad513226a66
+SHA256: c198e903e4a54946dec49d124d4114a5f950b29a77ea51010634596e3fe699b9
+SHA512: c9e60ad6e30d6378c2ae7dfaa9579a4aa912d32347830af814d29845ba033b0394d37554ce3e4b4bd08d9bf461b03c1913a3857b7f4e2733fc0d84ba76c057db
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Name: Filza File Manager ھۆججەت باشقۇرغۇچ
+Author: Piyazon
+Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/filza/filza.png
+Depiction: https://piyazon.top/repo/dep/Depiction/filza/
+
 Package: top.piyazon.hideyourapps
 Architecture: iphoneos-arm
 Version: 1.2.1
@@ -36,4 +151,205 @@ Name: HideYourApps دىتال يۇشۇرۇش
 Author: Piyazon
 Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/hideyourapps.png
 Depiction: https://piyazon.top/repo/dep/Depiction/hideyourapps/
+
+Package: top.piyazon.little12
+Architecture: iphoneos-arm
+Version: 1.0.1
+Section: Tweaks
+Maintainer: Piyazon
+Installed-Size: 1028
+Provides: com.hius.gesturesi11, com.hius.halfipad, com.vitataf.homegesture, com.ioscreatix.littlex, com.ryannair05.little11
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0)
+Conflicts: com.hius.gesturesi11, com.hius.halfipad, com.vitataf.homegesture, com.ioscreatix.littlex, com.duraidabdul.neptune
+Replaces: com.binksalex.fluidify, com.hius.halfipad, com.vitataf.homegesture, com.ioscreatix.littlex, com.ryannair05.little11
+Filename: ./debians/top.piyazon.little12_1.0.1_iphoneos-arm.deb
+Size: 439254
+MD5sum: 7d7f00c08af652b4cc202916b84d3720
+SHA1: 54651e4bd923569a05f95249dc0827970aadfc92
+SHA256: a64fee826c997c40edb19a3d1bfae2ef3f0fcbbd34d652c27f15cfe5910ce0ea
+SHA512: 94ebf7993848b47f250e387d4bb94c18383c365b2f31f6c52d4373c0b852311a3a01be84676765662bfdcb4e10fdf4fc7cb35ae38eea84159c7fe76f917ebf04
+Description: iPhone 12 gestures and more for iOS 14
+Name: Little12 قول ھەرىكەت
+Author: Piyazon
+Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/little12/little12.png
+Depiction: https://piyazon.top/repo/dep/Depiction/little12/
+
+Package: top.piyazon.newterm2
+Architecture: iphoneos-arm
+Version: 2.5
+Section: Terminal Support
+Maintainer: Piyazon
+Installed-Size: 6664
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.16), bash, coreutils, ncurses, system-cmds, gettext-localizations | com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm, com.lint.ntarrows
+Replaces: ws.hbang.newterm, com.lint.ntarrows
+Filename: ./debians/top.piyazon.newterm2_2.5_iphoneos-arm.deb
+Size: 2997422
+MD5sum: 40077d78707f584cb4759fe1e27534ff
+SHA1: f253be94219e48c0e9a441075881d9e425fe74b8
+SHA256: f4f21a693d8669fb0db2285cbe9fd3171c72540ed2f89b313f5abaffa34ba994
+SHA512: 34dc327e4aa88b360f242e9348bc93da4909bf0dfcf242cf1568bfe7dc17bc86338665f7cf411d76fe37172bd5a26ee909f97f0b8a9d6f3bb109d5228f97fa0d
+Description: A powerful terminal app for iOS
+Tag: compatible_min::ios10.0
+Name: NewTerm 2 تىرمىنال
+Author: Piyazon
+Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/newterm2/newterm2.png
+Depiction: https://piyazon.top/repo/dep/Depiction/newterm2/
+
+Package: top.piyazon.redeb
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: Tools
+Maintainer: Piyazon
+Installed-Size: 8
+Depends: firmware (>= 11.0), bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p), apt7 (>= 0.7.25.3-6)
+Filename: ./debians/top.piyazon.redeb_1.0.3_iphoneos-arm.deb
+Size: 3530
+MD5sum: 78e095bec0fc98a739cc15cab4953bfa
+SHA1: 78956b9160c76ebc3fedce56c99e5f609433ea81
+SHA256: 258fec8f26760c1c8448cefecd85fffb822b023a12b0b5fe1c27ae88baf92049
+SHA512: 14964e6dd4d253faf4b69fcfb2d60686b79fcc65d77d171995f7f3113c979f8a7c7aeca987cf68e0a4504f073196d4662d226663b8fab8684d7520dd268ef593
+Description: 安装手机终端.输入命令“redeb”输入Y查看插件并输入编号进行备份,插件备份目录/var/mobile/Documents/Redeb/debs.
+Name: redeb قىستۇرما زاپلاش
+Author: Piyazon
+Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/redeb/redeb.png
+Depiction: https://piyazon.top/repo/dep/Depiction/redeb/
+
+Package: top.piyazon.safariplus
+Architecture: iphoneos-arm
+Version: 1.7.18-3
+Section: Tweaks
+Maintainer: Piyazon
+Depends: firmware (>= 8.0), mobilesubstrate, ws.hbang.common, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.opa334.libundirect (>= 1.1.3) | firmware (<< 14.0)
+Conflicts: com.opa334.safariplus
+Filename: ./debians/top.piyazon.safariplus_1.7.18-3_iphoneos-arm.deb
+Size: 2011242
+MD5sum: f8ec4ee07f1f0b9d0aca40d804a2cff9
+SHA1: 57bff3ba482c257f6b6a268519d9c830b0c64a3b
+SHA256: 3eedb7e4324a1732797eb30669bc184170508182787865d9719628dbffb87240
+SHA512: 79292eede8611fa3e68112afb97e9f71e0ea9808cd50e6eac0a7f2f812419b375bec354269245b1cf283e09253e6aef9b1aa6375b20955190891945315b1bfd2
+Description: safari开启下载.上传.等等.汉化版
+Name: Safari Plus سافارى قىقاس
+Author: Piyazon
+Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/safariplus/safariplus.png
+Depiction: https://piyazon.top/repo/dep/Depiction/safariplus/
+
+Package: top.piyazon.sentinel
+Architecture: iphoneos-arm
+Version: 1.3.2
+Section: Tweaks
+Maintainer: Piyazon
+Installed-Size: 752
+Depends: mobilesubstrate, ws.hbang.common, preferenceloader, com.opa334.ccsupport
+Filename: ./debians/top.piyazon.sentinel_1.3.2_iphoneos-arm.deb
+Size: 96448
+MD5sum: 45e73fb60ef2dc799b6a4287c8569083
+SHA1: c1126400fcb16760a1d7812ca1ab183756086637
+SHA256: c2953bdb8d09417fad1098899a875758ed4653f4b6060bcfd48e61e254572523
+SHA512: fab375d12b551f8f50a4bfba1f416f6b0707c4241126f6d5b28d91c09e4517870275295b97e6ad6f55b3b747cba478a96b6310a33dc8a32f795711583e262881
+Description: Stop losing your jailbreak when your battery dies!
+Name: Sentinel ئۆچۈشتىن ساقلاش
+Author: Piyazon
+Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/sentinel/sentinel.png
+Depiction: https://piyazon.top/repo/dep/Depiction/sentinel/
+
+Package: top.piyazon.shuffle
+Architecture: iphoneos-arm
+Version: 1.6.0
+Section: Tweaks
+Maintainer: Piyazon
+Installed-Size: 2364
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: ./debians/top.piyazon.shuffle_1.6.0_iphoneos-arm.deb
+Size: 572646
+MD5sum: e566124ce3cd09e04fa7c403f01ce1a3
+SHA1: 2055934f154cd32769c4547b100d59e8bcef1987
+SHA256: 40cf40a9b59da9e9cccd4422b0addfde6e4662d1d20940bafd7696933389e9ac
+SHA512: c2ed854bd14d9e2a06e3000cce37bf3e0f7980fe585e03db0626a3519905dc199039178a43eba1720edfb9b5f35eedecb48c5accb94e75a882d9e05b1f2a5607
+Description: Organize your settings
+Tag: purpose::extension, compatible_min::ios10
+Name: Shuffle تەڭشەك تەرتىپ
+Author: Piyazon
+Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/shuffle/shuffle.png
+Depiction: https://piyazon.top/repo/dep/Depiction/shuffle/
+
+Package: top.piyazon.sixls
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Tweaks
+Maintainer: Piyazon
+Installed-Size: 2200
+Depends: mobilesubstrate, preferenceloader, firmware (>= 11.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0)
+Filename: ./debians/top.piyazon.sixls_1.1_iphoneos-arm.deb
+Size: 1588362
+MD5sum: b76fbe40cd3a954295182241f6e21b68
+SHA1: 26721a35e9863372ee4cd70ccf01d3a0d063a485
+SHA256: 3374de89d3a4a1fe41aa91bfd1b68a035283a1e3bda9737dd8d82146bbb37bc4
+SHA512: ec4ee8c96a0be6b3af0d123112a7ea50846be5518e831e9f3cb83ff2362e79989eb7206e481eeb7db2d8cc30721c88848a8800d28215607358a9f04eec1f8577
+Description: iOS 6 Style Lock Screen!
+Name: Six (LS) كونا قۇلۇپ ئىكران
+Author: Piyazon
+Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/sixls/sixls.png
+Depiction: https://piyazon.top/repo/dep/Depiction/sixls/
+
+Package: top.piyazon.snapper2
+Architecture: iphoneos-arm
+Version: 2.5.12
+Section: Tweaks
+Maintainer: Piyazon
+Depends: mobilesubstrate, firmware (>= 12.1)
+Conflicts: com.jontelang.snapper
+Filename: ./debians/top.piyazon.snapper2_2.5.12_iphoneos-arm.deb
+Size: 530552
+MD5sum: 18c762c7c80b88830ee4a0c53b1db94d
+SHA1: dbcf8f4bb87385152531a2ff97e5d294bb4ffbf3
+SHA256: 78b67cace251996766f8ac7d56dda35acb7800f4c5ecf58037ae5d88543073e8
+SHA512: f1f51f1a1f16e4550de5bb0edcd34e0fa74f1e318016a5a72448541971b65e53e85a95b2932fc7ff9daefd4ac47344687c2e7ae1246c70f378aa4e59c4a12c8d
+Description: 高级截图.自定义截图
+Name: Snapper2 ئىكران كىسىش
+Author: Piyazon
+Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/snapper2/snapper2.png
+Depiction: https://piyazon.top/repo/dep/Depiction/snapper2/
+
+Package: top.piyazon.toneenabler
+Architecture: iphoneos-arm
+Version: 1.1r-15
+Section: Tools
+Maintainer: Piyazon
+Installed-Size: 198
+Depends: mobilesubstrate
+Filename: ./debians/top.piyazon.toneenabler_1.1r-15_iphoneos-arm.deb
+Size: 25652
+MD5sum: 95d4511adaf919a9c9a430e9cb88389c
+SHA1: 75d6d8aed19325ead00e270e117848d640f95a80
+SHA256: cce68a5833cd55f15b49a283fc296da36cd96fd8042bac0a9182e3f3df362a85
+SHA512: 035298e2284949c3a6becdea9ce17ee2b4e1dcd8220aeb7a4c9c16e1d19b9d7dbf06d4f4a239c4d4c648e62eb43c039994463da184da3579cbd8e61b423d0ad2
+Description: 无需再同步 手动放入铃声即可使用
+Name: ToneEnabler قوڭغىراق
+Author: Piyazon
+Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/toneenabler/toneenabler.png
+Depiction: https://piyazon.top/repo/dep/Depiction/toneenabler/
+
+Package: top.piyazon.tranzlo
+Architecture: iphoneos-arm
+Version: 3.5
+Section: Tweaks
+Maintainer: Piyazon
+Installed-Size: 5112
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, com.miro.libmiro (>= 1.0.18), com.miro.libmiroprefs (>= 1.0.2), ws.hbang.common (>= 1.17), com.creaturesurvive.libcscolorpicker
+Filename: ./debians/top.piyazon.tranzlo_3.5_iphoneos-arm.deb
+Size: 2557956
+MD5sum: a1c9873c0a1a383e4b64c71ef51e9c4e
+SHA1: 812b5d0135f5dd9644c822b8faa2fff067fb766b
+SHA256: 42f1fb01f6902c943d24c2de9a9d141ce373ac8b949b6709ad000d8e19a74b05
+SHA512: 06043988537795c94a222fc0c8034d9251c551a4d747c30fb1d925dac7d7252ba2b75b7132a2c7e80507a5d436f236f0efc4acea0ef11940cba5b3215ce0de25
+Description: A life savior translator tweak.
+Tag: purpose::extension, compatible_min::ios13, compatible_max::ios14
+Name: Tranzlo تەرجىمان
+Author: Piyazon
+Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/tranzlo/tranzlo.png
+Depiction: https://piyazon.top/repo/dep/Depiction/tranzlo/
 
