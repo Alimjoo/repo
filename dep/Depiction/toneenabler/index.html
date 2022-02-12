@@ -17,7 +17,8 @@
 <body>
     <!-- Get iOS version -->
     <p id="ios_version"></p>
-    <script> function iOSversion() { if (/iP(hone|od|ad)/.test(navigator.platform)) { var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/); return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)]; } } ver = iOSversion(); if (ver[0] < 15) { $("#ios_version").attr("class", "alert alert-success").html('Your device is running iOS ' + ver[0] + '.' + ver[1] + '.' + ver[2] + ', you are safe to install.'); } else { $("#ios_version").attr("class", "alert alert-warning").html('Your device is running iOS ' + ver[0] + '.' + ver[1] + '.' + ver[2] + ', not tested on your device yet.'); } </script>
+    <script> function iOSversion() { if (/iP(hone|od|ad)/.test(navigator.platform)) { var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/); return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)]; } } ver = iOSversion(); if (ver[0] < 15) { $("#ios_version").attr("class", "alert alert-success").html('Your device is running iOS ' + ver[0] + '.' + ver[1] + '.' + ver[2] + ', you are safe to install.'); } else { $("#ios_version").attr("class", "alert alert-warning").html('Your device is running iOS ' + ver[0] + '.' + ver[1] + '.' + ver[2] + ', not tested on your device yet.'); }
+    </script>
     <h1 class="pb-2 border-bottom">More Details</h1>
     <div class="px-4 py-3" id="icon-grid">
         <!-- description -->
@@ -60,16 +61,15 @@
             </div>
         </div>
     </div>
-
     <!-- Tweaks Custom -->
     <script>
         var properties = {
-            "current-version": "v1.2.1",
+            "current-version": "v1.1r-15",
             "test-ios": "iOS 14.8.1",
-            "last-up-time": "2022-02-11",
+            "last-up-time": "2022-02-12",
             "name": "toneenabler",
-            "img": 2,
-            "description": "Hide annoying or infrequently used applications from your Home screen. Hidden apps will be still accessible from your Spotlight search."
+            "img": 0,
+            "description": "Put a ringtone to <Ringtone> folder, boom!!, you get a new ringtone."
         }
     </script>
 
