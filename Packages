@@ -234,6 +234,25 @@ Author: Piyazon
 Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/safariplus/safariplus.png
 Depiction: https://piyazon.top/repo/dep/Depiction/safariplus/
 
+Package: top.piyazon.safariplus
+Architecture: iphoneos-arm
+Version: 1.7.19-2
+Section: Tweaks
+Maintainer: Piyazon
+Depends: firmware (>= 8.0), mobilesubstrate, ws.hbang.common, com.creaturesurvive.libcscolorpicker, com.rpetrich.rocketbootstrap, com.opa334.libundirect (>= 1.1.3) | firmware (<< 14.0)
+Conflicts: com.opa334.safariplus
+Filename: ./debians/top.piyazon.safariplus_1.7.19-2_iphoneos-arm.deb
+Size: 1215516
+MD5sum: 9bcd6f125972924dc8ad87611bdae7f7
+SHA1: 299668a93d78346e6de1547f5a7b99682c678653
+SHA256: 3e0b6db855f4610253dcc87eb36920914b438923ab6a4e8dd0016c699d92fdc3
+SHA512: 6a068c369057fc5749e4099804b549bf0b922b9efae6ae0ebabd0f7068c34375da770136396196d73ca7da77b91137410fe0aef44542b0fd3312688a2444d271
+Description: safari开启下载.上传.等等.汉化版
+Name: Safari Plus سافارى قىقاس
+Author: Piyazon
+Icon: https://gitlab.com/Alimjoo/jb_repo_cdn/-/raw/main/safariplus/safariplus.png
+Depiction: https://piyazon.top/repo/dep/Depiction/safariplus/
+
 Package: top.piyazon.sentinel
 Architecture: iphoneos-arm
 Version: 1.3.2
