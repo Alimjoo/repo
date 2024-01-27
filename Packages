@@ -1,3 +1,49 @@
+Package: com.creaturecoding.libcspreferences
+Architecture: iphoneos-arm64e
+Version: 1.5.8
+Section: System
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 2332
+Pre-Depends: rootless-compat(>= 0.1), firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Filename: ./debians/com.creaturecoding.libcspreferences_1.5.8_iphoneos-arm64e.deb
+Size: 335656
+MD5sum: 04fdf5ea2935f2673f7ac576b73b2c39
+SHA1: 59e2fcfb1fb200c91bc161dba91a82bb41fb481f
+SHA256: 6234442e479c5c9fd5f948167ed82f47cd15e5209bcd3c2c3f0554cb163f10c6
+SHA512: fcce90252b10e838d48914166bd5ba2315243e6fb7e886590b17ec88fff3b27623de226e9bec5e923c58ce761548404e490862ca1f53312b9f55bdced2265cea
+Homepage: https://piyazon.top/root_hide_repo/
+Description: A Preference Library that doesn't suck!
+Tag: compatible_min::iOS9
+Name: libCSPreferences
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
+SileoDepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
+
+Package: com.creaturecoding.shuffle
+Architecture: iphoneos-arm64e
+Version: 1.6.2
+Section: Tweaks
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 1484
+Pre-Depends: rootless-compat(>= 0.1), firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
+Depends: com.creaturecoding.libcspreferences
+Conflicts: com.cpdigitaldarkroom.placeholder
+Replaces: com.cpdigitaldarkroom.placeholder
+Filename: ./debians/com.creaturecoding.shuffle_1.6.2_iphoneos-arm64e.deb
+Size: 319690
+MD5sum: a8d0774611c7740f814581036993f903
+SHA1: 12b286cfc261f8bfad910e06130c7b7dfb66db96
+SHA256: 84dd056758cb1ade0022bdcb4276dec733d78cf1ebb0f3496d41dc769cb55c32
+SHA512: 21a6e3b2eb22b34432b304e9f8b7f80057a91945d81a00fa3381aa2327fd04de2fd6f7fee87702fb1bfbac7139a556ab05435c338d2a0ac98bffec82e246699e
+Homepage: https://creaturecoding.com/
+Description: Organize your settings
+Tag: purpose::extension, compatible_min::ios10
+Name: Shuffle
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=shuffle
+SileoDepiction: https://creaturecoding.com/sileo/depiction/?package_id=shuffle
+Icon: file:///Library/PreferenceBundles/shuffle.bundle/SettingsIcon@3x.png
+
 Package: cydia
 Architecture: iphoneos-arm
 Version: 1.1.36-4
