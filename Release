@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Codename: piyazon
 Components: main
-Date: Sat, 27 Jan 2024 13:17:05 +0000
+Date: Sat, 27 Jan 2024 13:21:04 +0000
 Description: a personal repo
 Label: Piyazon's Repo
 Origin: Piyazon's Repo
@@ -10,28 +10,24 @@ Version: 1.0
 MD5Sum:
  af9b901795d3d6afc72ecb84dba2783e            18706 Packages
  9901c524275d11684799e0619907a38d             6633 Packages.bz2
- 4240925f82f938cff6887b7e2cd65369             7053 Packages.gz
+ b889673b0fae0550ea41e3c14ae1254d             7053 Packages.gz
  3bc1dc4b7359b6f291d3dead339ce99a             6436 Packages.xz
- d41d8cd98f00b204e9800998ecf8427e                0 Packages.zst
- 752eced6be0316dc8b39ab66cb5e7fec              220 Release
+ 2b38696ac48cf8ba68fd5e788cd619af              220 Release
 SHA1:
  b956428594743008bf7a5c00ecfc8c1f4d194894            18706 Packages
  732a86ed72e98a4c9fb492e767fa2d475c0fdefa             6633 Packages.bz2
- e2b6eca67020817541dfd9467e451751d83ef4ca             7053 Packages.gz
+ 0229e47bb7241a1d6da87cf2bd4d295e2fab9dea             7053 Packages.gz
  9126d1642471f754b7d51abed1980a6b9d128130             6436 Packages.xz
- da39a3ee5e6b4b0d3255bfef95601890afd80709                0 Packages.zst
- 680e40632bf33e1fbf382379c38776dc4877bf6f              220 Release
+ 8ccb32e609febbf94a3b4fbc8960d497815ac3dc              220 Release
 SHA256:
  54e30a3f9f69d49dd51de33cc0845f603ac5a133a2e5ba53b8d690db60b5c52d            18706 Packages
  67e1c7a89989128d93daabd95b03c763cfbe98d52b2908eaff30868ca1bb4a2e             6633 Packages.bz2
- 6043b9bc5bed90955bbd1d679f781ffcc958b9938b7c6688f23b3e7c48aec149             7053 Packages.gz
+ 2924427b32935efc0c114e5505934c3a0da0e89ecaed8ffba6d35d8c7bb07810             7053 Packages.gz
  b6b1011377c7316c1433325dcfbc8ae2d733ecc31928073b57e9c87fa45bcfa5             6436 Packages.xz
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855                0 Packages.zst
- 616f378663cc395db838d1089943ca8071f2a1be542b2d697e1c8ad643f31463              220 Release
+ f5ebab889ce7348520b246ce338fa0747de737c2d3f75b7b7a9d4c82f54fb455              220 Release
 SHA512:
  dd8b00f29198f68f664500acb295b941b94727675cef80d1f71c7121587664723f3036ab405f861e385cc200b4d08eab80093d036410081119eec87a19ee03bf            18706 Packages
  2cbca6b180fd768b91372068d8908b2cecdca8da20b5c4e94abcb05bfa7449023f4dd26c0aaa6ce130589e9363bd5496123a5780471e766a7258058e7dcac8b1             6633 Packages.bz2
- ac2c4277ca66989c21440bcd1e9bf3c9e729599fd8d9b5550da8c10763e70afa4da07f2031289ea9e5e73741c53064c1b276b93829a9101fea3566e22c546fdc             7053 Packages.gz
+ 3bb55031281a58f8f0d2ce64c2738d710ebd2996b82d6a48ce2dd8fc85ea213f083afb1a34f1a1688c722fd2702c3916e60fe03600c43a795ac3b51866d211ff             7053 Packages.gz
  9330bce7937f654f6abb73fc0992eec035fbd7fab76ceca2edd60d21e69f33f25e76b3f0c28d9aed0aa4a5ba24bfb95a705aaef72c02753be0110822e5ef79e0             6436 Packages.xz
- cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e                0 Packages.zst
- f744b666c8993be601d6a6fdbb921862197eab47daa3cc9ffe8f9b8e260cf67841b01c924a5fb685b3808593ff4c3e9dd63480b1f5b32dcbf26071d61e95add6              220 Release
+ 1c1ed60edf42d833cc3f4ab2f27a46eb21240942e2f8e18fdeae9c4f9ce443ddbc5b0c6919e9c4fe911198771edf3004e5e9fb61dc9c7a1c39f2797e52463214              220 Release
