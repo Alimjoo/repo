@@ -1,33 +1,33 @@
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Codename: piyazon
 Components: main
-Date: Sat, 27 Jan 2024 13:29:13 +0000
+Date: Sat, 27 Jan 2024 13:50:40 +0000
 Description: a personal repo
 Label: Piyazon's Repo
 Origin: Piyazon's Repo
 Suite: stable
 Version: 1.0
 MD5Sum:
- b437edc89b85e298905eba17295f192c            20958 Packages
- ab97416793f009e3aa5e66bdd7721acc             7250 Packages.bz2
- 58c699e434ac7b8cd328786f3345f9f6             7716 Packages.gz
- ce58e950d2670a6e515a6eb7e2e3f380             7012 Packages.xz
- eceb141f84adcf0ac5fcbc9ec633b663              220 Release
+ f1cc8f04ae553822dfe9725e6ccebd22            20944 Packages
+ f59d1f9f1acd8f9761e94e65ca6a9562             7266 Packages.bz2
+ 982ae4dc72f3fce07fd861b48a0112dc             7703 Packages.gz
+ 9cc31c2897e2663279ab226506b4bcb3             7012 Packages.xz
+ 2b260ee7780f082451e352b4048c9c45              220 Release
 SHA1:
- 73b58cc2d6cd7127818a68ea535c3a53f50f63f6            20958 Packages
- ad20927237edf8e1e23f3020f3c094b469e47bc1             7250 Packages.bz2
- a583dc70e3c0a979ea53b4debb70ee8122386b4a             7716 Packages.gz
- 06ae6c2fa18d6fab8bad1944c9091c9845034231             7012 Packages.xz
- 2e29cc0ec7f95ea49ff6eb330ba902ce81f50a7d              220 Release
+ ae2667df1afae1f54f3599d3bf0708799b082de3            20944 Packages
+ f40cc0a97bc0f5655c0fb240fe1ba5cd44b74411             7266 Packages.bz2
+ c282afbc9b777ec29c997af3df9c82b0f7f27f6c             7703 Packages.gz
+ 44b036a12e29cce1742c9fedfcb2fa29d1ce9c1f             7012 Packages.xz
+ bbbf0b52a8916f59bff830fe575f139373c7c30e              220 Release
 SHA256:
- e0e12703d54c0a17a0902449fdcafa6524d67f339f06e6f6fd2c43c8848760b5            20958 Packages
- 9d40caac254e4ef684f4e354649bc42d42156f0bb2f7d6c0a157a4666f7f1dc9             7250 Packages.bz2
- 581ec3be19e9329585be17cb478f9fe40215cfd30b326c3c0be842d48d4db41b             7716 Packages.gz
- f3bbd72f460703a774e015b951e137ee8cf6e3fe54463d7c9f2453580ea8ea57             7012 Packages.xz
- 3c9fdbfc69e23aaa91d07383c17529daecb71cf8119d27dbf7943bb65310fdaa              220 Release
+ d3ae6b6cb29fe9a7958fb23155fdc359b4f7d9f394eb09a868b30aafbee3c822            20944 Packages
+ 0d6f63eddb058c95a5f7422649ed8761fe4d58045fef8455d0f4264ad1d740bc             7266 Packages.bz2
+ 331ac8e2488911e5c9b24a66d9591432744b8a37052e50d760fcb8dbb4bbd132             7703 Packages.gz
+ 937ed386ce4cee79cb1e6b6c8d60d5644e4bec7451e98d63e7de8910b9091dfe             7012 Packages.xz
+ 9510d171d4376e310199aac8759ad9f89612ef80b781f6014007a599d2f30c0a              220 Release
 SHA512:
- 2f6d8277224fbadef69c9b027805a1e5bc95dbb5b42b4bf7dac7e014758b735bcca8f07676f636f89597caba36cd115297fb7583c1c3b0bc74ca97b9b30d680b            20958 Packages
- 0f26d435f6e60da5b8f8827176d1451cce4587b0f048d05602eb71450e7bf4e7387171501beefbb7a13f101bf69b1ba7ccc14f5835e03c35260fe2481716a04a             7250 Packages.bz2
- 674aef5b2eec6a489cbd7b4831aa0d9a4b1dbdf006733f8342e61b5b564edabbb8f7a0105522fc5d08385b4591029e146612e675ed0f54ec2ecf729a9c2ff208             7716 Packages.gz
- 60fda934b1851a2fa267ec5f950d1f5104e0c42de6274947d93569f42ca72891347995edf05cdc10a557df502241f3a47de04eb57b5acda713a7e892ee94ae6f             7012 Packages.xz
- 40a5865fa7c9141ffbdf6389d2cdd953e842a020a95ac485048f52cba4a816de4a367763cc67ff8ef262495195e436a061b6a560c896f81178c1cf307dfb2bc5              220 Release
+ 7ff38324d1e6123d0f8ee9e940bc22c6986a7fdf26b81e74eaf3dfae4860ef1f5603ce17c6c8653f384c396db169a59b482a7f7b31645cfbabc66bfc672f45a3            20944 Packages
+ 0797b87ee317075029a4cc094f541206cad6ea3603aa32f5cc063317dc9822048605262a1f15342f0693474359d1768b172a727beb59c37c1418a98a3bee8ce9             7266 Packages.bz2
+ e311c8f3bb34ef74b15348ee1f660b6d25b5214268bbbb8c5f3dea6a7f39b84b4c7144a36bf6316e756d0b12c1d4b480390471e91863ca66d8fd09eb1ae622ba             7703 Packages.gz
+ e734858dcb3aa4062728d0941be9abd808070b98c7a2de08ab55b006a1a7aab93edc44d3213c3576eacc6ce3343b2deceb12c3b4fed7c44c95f34ef2ab6ab7af             7012 Packages.xz
+ 7131b759e5ad8f493236c52488edf879b42f0a35e07469d0338318a91199755c06468ddb4acb975501948040972a6d94b93c0dbfb674b790b5b1b376f57783d4              220 Release

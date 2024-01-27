@@ -19,22 +19,22 @@ Author: CreatureSurvive <support@creaturecoding.com>
 Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
 SileoDepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
 
-Package: com.creaturecoding.shuffle
+Package: top.piyazon.shuffle
 Architecture: iphoneos-arm64e
 Version: 1.6.2
 Section: Tweaks
 Maintainer: CreatureSurvive <support@creaturecoding.com>
 Installed-Size: 1484
 Pre-Depends: rootless-compat(>= 0.1), firmware (>= 8.0), com.ex.libsubstitute | org.coolstar.libhooker | mobilesubstrate
-Depends: com.creaturecoding.libcspreferences
+Depends: top.piyazon.libcspreferences
 Conflicts: com.cpdigitaldarkroom.placeholder
 Replaces: com.cpdigitaldarkroom.placeholder
 Filename: ./debians/com.creaturecoding.shuffle_1.6.2_iphoneos-arm64e.deb
-Size: 319690
-MD5sum: a8d0774611c7740f814581036993f903
-SHA1: 12b286cfc261f8bfad910e06130c7b7dfb66db96
-SHA256: 84dd056758cb1ade0022bdcb4276dec733d78cf1ebb0f3496d41dc769cb55c32
-SHA512: 21a6e3b2eb22b34432b304e9f8b7f80057a91945d81a00fa3381aa2327fd04de2fd6f7fee87702fb1bfbac7139a556ab05435c338d2a0ac98bffec82e246699e
+Size: 259012
+MD5sum: 76a238e14deb322cddc61ca7deee4814
+SHA1: e62ae3421f7930408f7865c8752c3351df441360
+SHA256: 304abcee7cdd5f0cf1067ae3571cac21abb4fabc127291c27151dc118c454555
+SHA512: 4cb42820228cdc39eaa32406f170593c80037792eb98d151d692b12c0db15a9cac5ef4f16dec50b910634fef1c24b0e15e95a4f2e339d834f789f1067de10f16
 Homepage: https://creaturecoding.com/
 Description: Organize your settings
 Tag: purpose::extension, compatible_min::ios10
